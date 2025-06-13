@@ -213,7 +213,7 @@ x-hours = { $number } { $number ->
 }
 never = Nie
 
-## Desktop: Aussehen
+## Desktop: appearance
 
 appearance = Aussehen
     .desc = Akzentfarben und Themen.
@@ -277,14 +277,14 @@ window-management-appearance = Fensterverwaltung
     .active-hint = Größe des Hinweises für aktives Fenster
     .gaps = Lücken um gekachelte Fenster
 
-### Experimentell
+### Experimental
 
 experimental-settings = Experimentelle Einstellungen
 icons-and-toolkit = Symbole und Toolkit-Theming
 interface-font = Systemschriftart
 monospace-font = Nichtproportionale Schriftart
 
-## Desktop: Benachrichtigungen
+## Desktop: notifications
 
 notifications = Benachrichtigungen
     .desc = Nicht stören, Sperrbildschirm-Benachrichtigungen und Einstellungen pro Anwendung.
@@ -367,7 +367,7 @@ focus-navigation = Fokus-Navigation
     .focus-follows-cursor-delay = Verzögerung für Fokus folgt dem Cursor in ms
     .cursor-follows-focus = Cursor folgt dem Fokus
 
-## Desktop: Arbeitsflächen
+## Desktop: Workspaces
 
 workspaces = Arbeitsflächen
     .desc = Anzahl, Verhalten und Platzierung der Arbeitsflächen festlegen.
@@ -471,6 +471,8 @@ sound-output = Ausgabe
     .level = Ausgangspegel
     .config = Konfiguration
     .balance = Balance
+    .left = Links
+    .right = Rechts
 
 sound-input = Eingang
     .volume = Eingangslautstärke
@@ -484,9 +486,9 @@ sound-alerts = Alarmsignale
 sound-applications = Anwendungen
     .desc =  Lautstärken und Einstellungen von Anwendungen
 
-profile = Profil
+profile = Profile
 
-## Energie
+## Power
 
 power = Energie & Akku
     .desc = Energieeinstellungen verwalten
@@ -529,7 +531,7 @@ power-saving = Energiesparoptionen
     .auto-suspend-ac = Automatischer Standby-Modus, wenn am Stromnetz angeschlossen
     .auto-suspend-battery = Automatischer Standby-Modus bei Akkubetrieb
 
-## Eingabe
+## Input
 
 acceleration-desc = Passt die Tracking-Empfindlichkeit automatisch an die Geschwindigkeit an.
 
@@ -577,6 +579,12 @@ keyboard-typing-assist = Tippen
     .repeat-rate = Wiederholungsrate
     .repeat-delay = Wiederholungsverzögerung
 
+keyboard-numlock-boot = Numlock
+    .boot-state = Numlock-Status beim Start
+    .last-boot = Wie beim Ausschalten
+    .on = Ein
+    .off = Aus
+    .set = Der Status von Numlock bei Starten
 added = Hinzugefügt
 type-to-search = Zum Suchen tippen...
 show-extended-input-sources = Erweiterte Eingabequellen anzeigen
